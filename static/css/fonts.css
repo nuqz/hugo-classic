@@ -1,7 +1,13 @@
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Avenir Next', Avenir, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Press+Start+2P');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Press Start 2P';
 }
+
+body {
+  font-family: 'Anonymous Pro';
+}
+
 code {
-  font-family: "Lucida Console", Monaco, monospace;
   font-size: 85%;
 }
