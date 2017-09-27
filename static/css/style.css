@@ -2,7 +2,12 @@ body {
   max-width: 800px;
   margin: auto;
   padding: .2em;
-  line-height: 1.5em;
+  line-height: 1.25em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 2.5rem;
+  color: #5d4037;
 }
 
 /* Table of Contents, if wanted
@@ -24,10 +29,15 @@ output:
 .menu li { display: inline-block; }
 .article-meta, .menu a {
   text-decoration: none;
-  background: #D2D6EF;
-  color: #FFF;
+  background: #efebe9; 
+  color: #8d6e63;
   padding: 5px;
   border-radius: 5px;
+}
+
+.article-meta h1,
+.article-meta h2 {
+  color: #8d6e63;
 }
 
 .terms { font-size: .9em; }
@@ -43,7 +53,7 @@ footer a { text-decoration: none; }
 }
 
 a {
-  color: #613DC1;
+  color: #4e342e;
   text-decoration: none;
 }
 
@@ -58,7 +68,7 @@ header {
     height: 1.75rem;
     font-family: "Lucida Console" , "Liberation Mono";
     font-size: .875rem;
-    background: #613DC1;
+    background: #4e342e;
     border-bottom: 1px solid #000;
 }
 
