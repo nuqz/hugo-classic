@@ -120,3 +120,8 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 tr:nth-child(even) { background: #eee }
+
+/* Media boxes */
+main p img {
+  max-height: 18rem;
+}
